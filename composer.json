@@ -23,11 +23,13 @@
     ],
     "require": {
         "php": "^8.0",
-        "astrogoat/strata": "^0.2.7",
-        "spatie/laravel-package-tools": "^1.4.3",
-        "illuminate/contracts": "^8.37 || ^9.9"
+        "astrogoat/strata": "^0.3.0",
+        "illuminate/contracts": "^8.37 || ^9.9",
+        "laravel/vapor-core": "^2.25",
+        "spatie/laravel-package-tools": "^1.4.3"
     },
     "require-dev": {
+        "laravel/vapor-cli": "^1.49",
         "nunomaduro/collision": "^5.3",
         "orchestra/testbench": "^6.15",
         "pestphp/pest": "^1.18",
