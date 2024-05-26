@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Vapor\Settings;
 
+use Astrogoat\Vapor\Actions\VaporAction;
 use Helix\Lego\Settings\AppSettings;
 use Illuminate\Validation\Rule;
-use Astrogoat\Vapor\Actions\VaporAction;
 
 class VaporSettings extends AppSettings
 {
